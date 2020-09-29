@@ -16630,8 +16630,7 @@ span.days {
 	font-family: InterB;
 	font-size: 16px;
 	line-height: 33px;
-	text-decoration-line: underline;
-	color: #2b3747;
+	color: #222;
 	display: block;
 	-webkit-transition: all .2s linear;
 	-moz-transition: all .2s linear;
@@ -16640,7 +16639,7 @@ span.days {
 }
 
 .link-button a:hover {
-	text-decoration-line: none
+	color: #0F80D2
 }
 
 .index-header-block {
@@ -17667,7 +17666,6 @@ a.police-item-link {
 .address-contact .location-item {
 	font-family: InterSB, Arial
 }
-
 .city-wrapper {
 	vertical-align: middle;
 	display: inline-block;
@@ -17684,22 +17682,33 @@ a.police-item-link {
 	background-repeat: no-repeat;
 	padding-left: 24px;
 	background-position-y: 2px;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+.city-text-contact {
+	color: #0f80d2;
+	font-family: InterSB, Arial;
+	cursor: pointer;
+	-webkit-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
+}
+.city-text-contact:hover{
+	color: #1F95EB;
+}
+.city-text-contact:focus{
+	color: #0A5E9B;
 }
 
 .city-slidebar {
 	margin-bottom: 20px
 }
 
-.city-slidebar .city-text {
-	color: #222;
-	cursor: pointer;
-	text-decoration: underline;
-	font-family: InterSB, Arial;
-	font-size: 14px;
-}
-
-.city-slidebar .city-text:hover {
-	color: #0f80d2
+.city-text:hover {
+	color: #0f80d2 !important;
 }
 
 .header.header-small .city-text {
@@ -17764,8 +17773,7 @@ a.police-item-link {
 }
 
 .cities-a:hover {
-	color: #41515a;
-	text-decoration: underline
+	color: #0F80D2;
 }
 
 .cities-a.active {
@@ -17824,10 +17832,10 @@ a.police-item-link {
 	width: 35px;
 	position: absolute;
 	display: block;
-	right: 0;
-	top: 0;
+	right: 30px;
+	top: 30px;
 	cursor: pointer;
-	z-index: 1000
+	z-index: 1000;
 }
 
 .mob-menu-but-h-3-wrapper {
